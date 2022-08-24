@@ -105,13 +105,6 @@ body {
 }
 
 
-.horizontal-line {
-    height: 3px;
-    width: 15%;
-    margin: 0 auto !important;
-    background-color: var(--horizontal-line-background-color);
-}
-
 /* top-navbar-section */
 .navbar-item {
     font-size: var(--top-nav-font-size);
@@ -188,7 +181,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- ;
+    ;
 }
 
 .doctor-name {
@@ -250,9 +243,6 @@ body {
 
 
 /* ACHIEVEMENT-SECTION */
-.achievement-container {
-    /* background-color: var(--achievement-backgroundr); */
-}
 
 .achievement-title {
     font-size: var(--achieve-title-font-size);
@@ -290,7 +280,8 @@ body {
     font-family: var(--chamber-time-font-family);
     color: var(--chamber-time-font-color);
 }
-.hospital-name{
+
+.hospital-name {
     font-size: var(--chamber-hospital-name-font-size);
     font-family: var(--chamber-hospital-name-font-family);
     color: var(--chamber-hospital-name-font-color);
@@ -298,12 +289,6 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-    .horizontal-line {
-        height: 3px;
-        width: 35%;
-        margin: 0 auto !important;
-        background-color: var(--horizontal-line-background-color);
-    }
 
     /* APPOINTMET-S
   ECTION  MEDIA QUERY*/
