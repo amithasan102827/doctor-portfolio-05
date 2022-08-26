@@ -41,7 +41,9 @@
     --doctor-name-color: #9E61A4;
     --doctor-description-font-family: "Poppins Regular", sans-serif;
     --doctor-description-font-color: #706F6F;
-    --doctor-description-font-size: 14px;
+    --social-icon-background-color: #9E61A4;
+    --social-icon-color: #FFFFFF;
+    --social-icon-text-color: #9E61A4;
     /* biography-section */
     --biography-title-font-color: #FFFFFF;
     --biography-title-font-family: "Montserrat Medium", sans-serif;
@@ -70,10 +72,17 @@
     --chamber-hospital-add-font-color: #646363;
 
 
-    --horizontal-line-background-color: #809926;
+    --side-bar-background-color: #9E61A4;
 
 }
 
+
+
+.side-bar {
+    border-left: 2.5px solid var(--side-bar-background-color);
+    border-right: 2.5px solid var(--side-bar-background-color);
+    padding: 4px;
+}
 
 /* Global setup */
 * {
@@ -164,6 +173,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .banner-img-container img {
@@ -197,17 +207,23 @@ body {
 }
 
 .banner-icon i {
-    color: #FFFFFF;
-    background-color: #9E61A4;
+    color: var(--social-icon-color);
+    background-color: var(--social-icon-background-color);
 }
 
 .banner-icon span {
     font-size: 14px;
-    color: #bf98c2;
+    color: var(--social-icon-text-color);
     font-weight: 500;
 }
 
 /* BIOGRAPHI-SECTION */
+.biography-title {
+    border-left: 2.5px solid #FFFFFF;
+    border-right: 2.5px solid #FFFFFF;
+    padding: 4px;
+}
+
 .biography-container {
     background-color: var(--bio-backgroundr);
 }
